@@ -207,6 +207,7 @@ function hideSubmenuMobile() {
 }
 
 function returnToDefaults() {
+    console.log("restored");
     $(".sidemenu__container").removeClass("sidemenu__container_absolute");
     $(".sidemenu__container").addClass("sidemenu__container_hidden");
     $(".submenu__container").addClass("submenu_hidden");
@@ -238,8 +239,11 @@ $(window).resize(function (e) {
     //in case of 'resizing lovers'
     let new_width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
     if (new_width != width) returnToDefaults();
+    width = new_width;
 })
-window.addEventListener("orientationchange", function() {
+
+$(window).on("orientationchange", function() {
+    console.log("orientation changed");
     returnToDefaults();
 });
 

@@ -1,37 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Site</title>
     <link rel="stylesheet" href="css/main.css">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
 </head>
+
 <body>
     <div class="container">
         <div class="row">
             <div class="col">
                 <div class="menu__bar">
-                    
-                    <nav class="menu__links">
-                       <div class="menu__toggle">
-                        <div class="line"></div>
-                        <div class="line"></div>
-                        <div class="line"></div>
+                    <div class="menu__links">
+                        <div class="menu__toggle">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
                         </div>
                         <ul>
-                            <li class="menu__link">home</li>
-                            <li class="menu__link">store</li>
-                            <li class="menu__link">blog</li>
-                            <li class="menu__link">about</li>
-                            <li class="menu__link">contact</li>
+                            <li class="menu__link">
+                                <a href="#">home</a>
+                            </li>
+                            <li class="menu__link">
+                                <a href="#">store</a>
+                            </li>
+                            <li class="menu__link">
+                                <a href="#">blog</a>
+                            </li>
+                            <li class="menu__link">
+                                <a href="#">about</a>
+                            </li>
+                            <li class="menu__link">
+                                <a href="#">contact</a>
+                            </li>
                         </ul>
-                    </nav>
+                    </div>
                     <div class="menu__icons-bar">
                         <div class="menu__search icon"></div>
                         <div class="menu__social">
-                            <div class="icon fb"></div>
-                            <div class="icon twitter"></div>
-                            <div class="icon gplus"></div>
+                            <a href="#" class="icon fb"></a>
+                            <a href="#" class="icon twitter"></a>
+                            <a href="#" class="icon gplus"></a>
                         </div>
                         <div class="menu__login icon" data-toggle="modal" data-target="#exampleModal"></div>
                     </div>
@@ -40,42 +51,41 @@
         </div>
         <div class="row">
             <div class="col-lg col-sm-12 sidemenu__container sidemenu__container_hidden">
-              <div class="row">
-                   <div class="col-lg col-md col-sm sidemenu__menu">
-         
-                       <nav class="side-menu">
-                    <ul>
-                        <li class="side-menu__item" data-title="home">
-                            <div class="side-menu__item-icon home-icon"></div>
-                            <div class="side-menu__title">home</div>
-                        </li>
-                        <li class="side-menu__item" data-title="store">
-                            <div class="side-menu__item-icon shop-icon"></div>
-                            <div class="side-menu__title">store</div>
-                        </li>
-                        <li class="side-menu__item" data-title="blog">
-                            <div class="side-menu__item-icon note-icon"></div>
-                            <div class="side-menu__title">blog</div>
-                        </li>
-                        <li class="side-menu__item" data-title="community">
-                            <div class="side-menu__item-icon users-icon"></div>
-                            <div class="side-menu__title">community</div>
-                        </li>
-                        <li class="side-menu__item" data-title="contests">
-                            <div class="side-menu__item-icon trophy-icon"></div>
-                            <div class="side-menu__title">contests</div>
-                        </li>
-                        <li class="side-menu__item" data-title="about">
-                            <div class="side-menu__item-icon info-icon"></div>
-                            <div class="side-menu__title">about</div>
-                        </li>
-                        <li class="side-menu__item" data-title="contact">
-                            <div class="side-menu__item-icon email-icon"></div>
-                            <div class="side-menu__title">contact</div>
-                        </li>
-                    </ul>
-                </nav>
-                   <div class="contacts">
+                <div class="row">
+                    <div class="col-lg col-md col-sm sidemenu__menu">
+                        <nav class="side-menu">
+                            <ul>
+                                <li class="side-menu__item" data-title="home">
+                                    <div class="side-menu__item-icon home-icon"></div>
+                                    <div class="side-menu__title">home</div>
+                                </li>
+                                <li class="side-menu__item" data-title="store">
+                                    <div class="side-menu__item-icon shop-icon"></div>
+                                    <div class="side-menu__title">store</div>
+                                </li>
+                                <li class="side-menu__item" data-title="blog">
+                                    <div class="side-menu__item-icon note-icon"></div>
+                                    <div class="side-menu__title">blog</div>
+                                </li>
+                                <li class="side-menu__item" data-title="community">
+                                    <div class="side-menu__item-icon users-icon"></div>
+                                    <div class="side-menu__title">community</div>
+                                </li>
+                                <li class="side-menu__item" data-title="contests">
+                                    <div class="side-menu__item-icon trophy-icon"></div>
+                                    <div class="side-menu__title">contests</div>
+                                </li>
+                                <li class="side-menu__item" data-title="about">
+                                    <div class="side-menu__item-icon info-icon"></div>
+                                    <div class="side-menu__title">about</div>
+                                </li>
+                                <li class="side-menu__item" data-title="contact">
+                                    <div class="side-menu__item-icon email-icon"></div>
+                                    <div class="side-menu__title">contact</div>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="contacts">
                             <div class="contacts__item">
                                 <div class="contacts__icon contacts__icon-phone"></div>
                                 <div class="contacts__details">
@@ -99,366 +109,365 @@
                                 </div>
                             </div>
                         </div>
-     
-
-                       
-
-                         
-               </div>
-                  
-                  <div class="col-lg col-md col-sm submenu__container submenu_hidden">
-                      <div class="submenu submenu_hidden" data-parent="home">
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Tech-home</a>
-                                <div class="section-head__arrow"></div>
+                    </div>
+                    <div class="col-lg col-md col-sm submenu__container submenu_hidden">
+                        <div class="submenu submenu_hidden" data-parent="home">
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Tech-home</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Software & Apps</a>
+                                <a href="#" class="submenu__section-item">Gadgets</a>
+                                <a href="#" class="submenu__section-item">Mobile</a>
                             </div>
-                            <a href="" class="submenu__section-item">Software & Apps</a>
-                            <a href="" class="submenu__section-item">Gadgets</a>
-                            <a href="" class="submenu__section-item">Mobile</a>
-                        </div>
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Entertainment</a>
-                                <div class="section-head__arrow"></div>
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Entertainment</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Film</a>
+                                <a href="#" class="submenu__section-item">Gaming</a>
+                                <a href="#" class="submenu__section-item">Music</a>
+                                <a href="#" class="submenu__section-item">Sport</a>
                             </div>
-                            <a href="" class="submenu__section-item">Film</a>
-                            <a href="" class="submenu__section-item">Gaming</a>
-                            <a href="" class="submenu__section-item">Music</a>
-                            <a href="" class="submenu__section-item">Sport</a>
-                        </div>
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Business</a>
-                                <div class="section-head__arrow"></div>
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Business</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Jobs</a>
+                                <a href="#" class="submenu__section-item">Marketing</a>
+                                <a href="#" class="submenu__section-item">Media</a>
                             </div>
-                            <a href="" class="submenu__section-item">Jobs</a>
-                            <a href="" class="submenu__section-item">Marketing</a>
-                            <a href="" class="submenu__section-item">Media</a>
-                        </div>
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Lifestyle</a>
-                                <div class="section-head__arrow"></div>
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Lifestyle</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Home</a>
+                                <a href="#" class="submenu__section-item">Health & Fitmess</a>
+                                <a href="#" class="submenu__section-item">Travel & Leisure</a>
                             </div>
-                            <a href="" class="submenu__section-item">Home</a>
-                            <a href="" class="submenu__section-item">Health & Fitmess</a>
-                            <a href="" class="submenu__section-item">Travel & Leisure</a>
                         </div>
-                   </div>
-                       <div class="submenu submenu_hidden" data-parent="store">
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Tech-store</a>
-                                <div class="section-head__arrow"></div>
+                        <div class="submenu submenu_hidden" data-parent="store">
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Tech-store</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Software & Apps</a>
+                                <a href="#" class="submenu__section-item">Gadgets</a>
+                                <a href="#" class="submenu__section-item">Mobile</a>
                             </div>
-                            <a href="" class="submenu__section-item">Software & Apps</a>
-                            <a href="" class="submenu__section-item">Gadgets</a>
-                            <a href="" class="submenu__section-item">Mobile</a>
-                        </div>
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Entertainment</a>
-                                <div class="section-head__arrow"></div>
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Entertainment</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Film</a>
+                                <a href="#" class="submenu__section-item">Gaming</a>
+                                <a href="#" class="submenu__section-item">Music</a>
+                                <a href="#" class="submenu__section-item">Sport</a>
                             </div>
-                            <a href="" class="submenu__section-item">Film</a>
-                            <a href="" class="submenu__section-item">Gaming</a>
-                            <a href="" class="submenu__section-item">Music</a>
-                            <a href="" class="submenu__section-item">Sport</a>
-                        </div>
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Business</a>
-                                <div class="section-head__arrow"></div>
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Business</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Jobs</a>
+                                <a href="#" class="submenu__section-item">Marketing</a>
+                                <a href="#" class="submenu__section-item">Media</a>
                             </div>
-                            <a href="" class="submenu__section-item">Jobs</a>
-                            <a href="" class="submenu__section-item">Marketing</a>
-                            <a href="" class="submenu__section-item">Media</a>
-                        </div>
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Lifestyle</a>
-                                <div class="section-head__arrow"></div>
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Lifestyle</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Home</a>
+                                <a href="#" class="submenu__section-item">Health & Fitmess</a>
+                                <a href="#" class="submenu__section-item">Travel & Leisure</a>
                             </div>
-                            <a href="" class="submenu__section-item">Home</a>
-                            <a href="" class="submenu__section-item">Health & Fitmess</a>
-                            <a href="" class="submenu__section-item">Travel & Leisure</a>
                         </div>
-                   </div>
-                       <div class="submenu submenu_hidden" data-parent="blog">
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Tech</a>
-                                <div class="section-head__arrow"></div>
+                        <div class="submenu submenu_hidden" data-parent="blog">
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Tech</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Software & Apps</a>
+                                <a href="#" class="submenu__section-item">Gadgets</a>
+                                <a href="#" class="submenu__section-item">Mobile</a>
                             </div>
-                            <a href="" class="submenu__section-item">Software & Apps</a>
-                            <a href="" class="submenu__section-item">Gadgets</a>
-                            <a href="" class="submenu__section-item">Mobile</a>
-                        </div>
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Entertainment</a>
-                                <div class="section-head__arrow"></div>
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Entertainment</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Film</a>
+                                <a href="#" class="submenu__section-item">Gaming</a>
+                                <a href="#" class="submenu__section-item">Music</a>
+                                <a href="#" class="submenu__section-item">Sport</a>
                             </div>
-                            <a href="" class="submenu__section-item">Film</a>
-                            <a href="" class="submenu__section-item">Gaming</a>
-                            <a href="" class="submenu__section-item">Music</a>
-                            <a href="" class="submenu__section-item">Sport</a>
-                        </div>
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Business</a>
-                                <div class="section-head__arrow"></div>
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Business</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Jobs</a>
+                                <a href="#" class="submenu__section-item">Marketing</a>
+                                <a href="#" class="submenu__section-item">Media</a>
                             </div>
-                            <a href="" class="submenu__section-item">Jobs</a>
-                            <a href="" class="submenu__section-item">Marketing</a>
-                            <a href="" class="submenu__section-item">Media</a>
-                        </div>
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Lifestyle</a>
-                                <div class="section-head__arrow"></div>
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Lifestyle</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Home</a>
+                                <a href="#" class="submenu__section-item">Health & Fitmess</a>
+                                <a href="#" class="submenu__section-item">Travel & Leisure</a>
                             </div>
-                            <a href="" class="submenu__section-item">Home</a>
-                            <a href="" class="submenu__section-item">Health & Fitmess</a>
-                            <a href="" class="submenu__section-item">Travel & Leisure</a>
                         </div>
-                   </div>
-                       <div class="submenu submenu_hidden" data-parent="community">
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Tech-community</a>
-                                <div class="section-head__arrow"></div>
+                        <div class="submenu submenu_hidden" data-parent="community">
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Tech-community</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Software & Apps</a>
+                                <a href="#" class="submenu__section-item">Gadgets</a>
+                                <a href="#" class="submenu__section-item">Mobile</a>
                             </div>
-                            <a href="" class="submenu__section-item">Software & Apps</a>
-                            <a href="" class="submenu__section-item">Gadgets</a>
-                            <a href="" class="submenu__section-item">Mobile</a>
-                        </div>
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Entertainment</a>
-                                <div class="section-head__arrow"></div>
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Entertainment</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Film</a>
+                                <a href="#" class="submenu__section-item">Gaming</a>
+                                <a href="#" class="submenu__section-item">Music</a>
+                                <a href="#" class="submenu__section-item">Sport</a>
                             </div>
-                            <a href="" class="submenu__section-item">Film</a>
-                            <a href="" class="submenu__section-item">Gaming</a>
-                            <a href="" class="submenu__section-item">Music</a>
-                            <a href="" class="submenu__section-item">Sport</a>
-                        </div>
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Business</a>
-                                <div class="section-head__arrow"></div>
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Business</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Jobs</a>
+                                <a href="#" class="submenu__section-item">Marketing</a>
+                                <a href="#" class="submenu__section-item">Media</a>
                             </div>
-                            <a href="" class="submenu__section-item">Jobs</a>
-                            <a href="" class="submenu__section-item">Marketing</a>
-                            <a href="" class="submenu__section-item">Media</a>
-                        </div>
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Lifestyle</a>
-                                <div class="section-head__arrow"></div>
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Lifestyle</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Home</a>
+                                <a href="#" class="submenu__section-item">Health & Fitmess</a>
+                                <a href="#" class="submenu__section-item">Travel & Leisure</a>
                             </div>
-                            <a href="" class="submenu__section-item">Home</a>
-                            <a href="" class="submenu__section-item">Health & Fitmess</a>
-                            <a href="" class="submenu__section-item">Travel & Leisure</a>
                         </div>
-                   </div>
-                      <div class="submenu submenu_hidden" data-parent="contests">
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Tech-contests</a>
-                                <div class="section-head__arrow"></div>
+                        <div class="submenu submenu_hidden" data-parent="contests">
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Tech-contests</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Software & Apps</a>
+                                <a href="#" class="submenu__section-item">Gadgets</a>
+                                <a href="#" class="submenu__section-item">Mobile</a>
                             </div>
-                            <a href="" class="submenu__section-item">Software & Apps</a>
-                            <a href="" class="submenu__section-item">Gadgets</a>
-                            <a href="" class="submenu__section-item">Mobile</a>
-                        </div>
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Entertainment</a>
-                                <div class="section-head__arrow"></div>
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Entertainment</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Film</a>
+                                <a href="#" class="submenu__section-item">Gaming</a>
+                                <a href="#" class="submenu__section-item">Music</a>
+                                <a href="#" class="submenu__section-item">Sport</a>
                             </div>
-                            <a href="" class="submenu__section-item">Film</a>
-                            <a href="" class="submenu__section-item">Gaming</a>
-                            <a href="" class="submenu__section-item">Music</a>
-                            <a href="" class="submenu__section-item">Sport</a>
-                        </div>
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Business</a>
-                                <div class="section-head__arrow"></div>
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Business</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Jobs</a>
+                                <a href="#" class="submenu__section-item">Marketing</a>
+                                <a href="#" class="submenu__section-item">Media</a>
                             </div>
-                            <a href="" class="submenu__section-item">Jobs</a>
-                            <a href="" class="submenu__section-item">Marketing</a>
-                            <a href="" class="submenu__section-item">Media</a>
-                        </div>
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Lifestyle</a>
-                                <div class="section-head__arrow"></div>
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Lifestyle</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Home</a>
+                                <a href="#" class="submenu__section-item">Health & Fitmess</a>
+                                <a href="#" class="submenu__section-item">Travel & Leisure</a>
                             </div>
-                            <a href="" class="submenu__section-item">Home</a>
-                            <a href="" class="submenu__section-item">Health & Fitmess</a>
-                            <a href="" class="submenu__section-item">Travel & Leisure</a>
                         </div>
-                   </div>
-                     <div class="submenu submenu_hidden" data-parent="about">
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Tech-about</a>
-                                <div class="section-head__arrow"></div>
+                        <div class="submenu submenu_hidden" data-parent="about">
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Tech-about</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Software & Apps</a>
+                                <a href="#" class="submenu__section-item">Gadgets</a>
+                                <a href="#" class="submenu__section-item">Mobile</a>
                             </div>
-                            <a href="" class="submenu__section-item">Software & Apps</a>
-                            <a href="" class="submenu__section-item">Gadgets</a>
-                            <a href="" class="submenu__section-item">Mobile</a>
-                        </div>
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Entertainment</a>
-                                <div class="section-head__arrow"></div>
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Entertainment</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Film</a>
+                                <a href="#" class="submenu__section-item">Gaming</a>
+                                <a href="#" class="submenu__section-item">Music</a>
+                                <a href="#" class="submenu__section-item">Sport</a>
                             </div>
-                            <a href="" class="submenu__section-item">Film</a>
-                            <a href="" class="submenu__section-item">Gaming</a>
-                            <a href="" class="submenu__section-item">Music</a>
-                            <a href="" class="submenu__section-item">Sport</a>
-                        </div>
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Business</a>
-                                <div class="section-head__arrow"></div>
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Business</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Jobs</a>
+                                <a href="#" class="submenu__section-item">Marketing</a>
+                                <a href="#" class="submenu__section-item">Media</a>
                             </div>
-                            <a href="" class="submenu__section-item">Jobs</a>
-                            <a href="" class="submenu__section-item">Marketing</a>
-                            <a href="" class="submenu__section-item">Media</a>
-                        </div>
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Lifestyle</a>
-                                <div class="section-head__arrow"></div>
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Lifestyle</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Home</a>
+                                <a href="#" class="submenu__section-item">Health & Fitmess</a>
+                                <a href="#" class="submenu__section-item">Travel & Leisure</a>
                             </div>
-                            <a href="" class="submenu__section-item">Home</a>
-                            <a href="" class="submenu__section-item">Health & Fitmess</a>
-                            <a href="" class="submenu__section-item">Travel & Leisure</a>
                         </div>
-                   </div>
-                     <div class="submenu submenu_hidden" data-parent="contact">
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Tech-contact</a>
-                                <div class="section-head__arrow"></div>
+                        <div class="submenu submenu_hidden" data-parent="contact">
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Tech-contact</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Software & Apps</a>
+                                <a href="#" class="submenu__section-item">Gadgets</a>
+                                <a href="#" class="submenu__section-item">Mobile</a>
                             </div>
-                            <a href="" class="submenu__section-item">Software & Apps</a>
-                            <a href="" class="submenu__section-item">Gadgets</a>
-                            <a href="" class="submenu__section-item">Mobile</a>
-                        </div>
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Entertainment</a>
-                                <div class="section-head__arrow"></div>
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Entertainment</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Film</a>
+                                <a href="#" class="submenu__section-item">Gaming</a>
+                                <a href="#" class="submenu__section-item">Music</a>
+                                <a href="#" class="submenu__section-item">Sport</a>
                             </div>
-                            <a href="" class="submenu__section-item">Film</a>
-                            <a href="" class="submenu__section-item">Gaming</a>
-                            <a href="" class="submenu__section-item">Music</a>
-                            <a href="" class="submenu__section-item">Sport</a>
-                        </div>
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Business</a>
-                                <div class="section-head__arrow"></div>
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Business</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Jobs</a>
+                                <a href="#" class="submenu__section-item">Marketing</a>
+                                <a href="#" class="submenu__section-item">Media</a>
                             </div>
-                            <a href="" class="submenu__section-item">Jobs</a>
-                            <a href="" class="submenu__section-item">Marketing</a>
-                            <a href="" class="submenu__section-item">Media</a>
-                        </div>
-                        <div class="submenu__section">
-                            <div class="submenu__section-head">
-                                <a href="" class="section-head__title">Lifestyle</a>
-                                <div class="section-head__arrow"></div>
+                            <div class="submenu__section">
+                                <div class="submenu__section-head">
+                                    <a href="#" class="section-head__title">Lifestyle</a>
+                                    <div class="section-head__arrow"></div>
+                                </div>
+                                <a href="#" class="submenu__section-item">Home</a>
+                                <a href="#" class="submenu__section-item">Health & Fitmess</a>
+                                <a href="#" class="submenu__section-item">Travel & Leisure</a>
                             </div>
-                            <a href="" class="submenu__section-item">Home</a>
-                            <a href="" class="submenu__section-item">Health & Fitmess</a>
-                            <a href="" class="submenu__section-item">Travel & Leisure</a>
                         </div>
-                   </div>
-                  </div>
-                  
-              
-              </div>
+                    </div>
+                </div>
             </div>
             <div class="col col-sm-12 right-container">
                 <div class="row">
                     <div class="col-sm col-xs-12 pr-md-2">
                         <div class="social-menu">
                             <div class="social-menu__item">
-                                <i class="social-menu__icon social-menu__icon-facebook"></i>
-                                <div class="social-menu__title">Facebook</div>
+                                <a href="#">
+                                   <i class="social-menu__icon social-menu__icon-facebook"></i>
+                                    <div class="social-menu__title">Facebook</div>
+                               </a>
                             </div>
                             <div class="social-menu__item">
-                                <i class="social-menu__icon social-menu__icon-twitter"></i>
+                                <a href="#">
+                                   <i class="social-menu__icon social-menu__icon-twitter"></i>
                                 <div class="social-menu__title">Twitter</div>
+                               </a>
                             </div>
                             <div class="social-menu__item">
-                                <i class="social-menu__icon social-menu__icon-gplus"></i>
+                                <a href="#">
+                                   <i class="social-menu__icon social-menu__icon-gplus"></i>
                                 <div class="social-menu__title">Google +</div>
+                               </a>
                             </div>
                             <div class="social-menu__item">
-                                <i class="social-menu__icon social-menu__icon-rss"></i>
+                                <a href="#">
+                                   <i class="social-menu__icon social-menu__icon-rss"></i>
                                 <div class="social-menu__title">Rss Feeds</div>
+                               </a>
                             </div>
                             <div class="social-menu__item">
-                                <i class="social-menu__icon social-menu__icon-pinterest"></i>
+                                <a href="#">
+                                   <i class="social-menu__icon social-menu__icon-pinterest"></i>
                                 <div class="social-menu__title">Pinterest</div>
+                               </a>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm col-xs-12 pl-md-2">
                         <div class="row">
-                           <div class="col">
-                               <div class="social-widget facebook-widget col">
-                                <div class="row">
-                                    <div class="col">
-                                        <div class="social-widget__logo"></div>
-                                    </div>
-                                </div>
-                                
-
-                                <div class="row">
-                                   <div class="col-4">
-                                       <div class="social-widget__followers-count">156k</div>
-                                   </div>
-                                    <div class="col-7 offset-md-1">
-                                       <div class="social-widget__follow-controls">
-                                           <div class="social-widget__follow-state">Follow</div>
-                                           <div class="social-widget__follow-icon social-widget__follow-icon_follow"></div>
-                                       </div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                           </div>
-                            
-                        </div>
-                        <div class="row">
                             <div class="col">
-                               <div class="social-widget twitter-widget">
-                                <div class="row">
-                                   <div class="col">
-                                       <div class="social-widget__logo"></div>
-                                   </div>
-                                </div>
-                                <div class="row">
-                                   <div class="col-4">
-                                       <div class="social-widget__followers-count">89k</div>
-                                   </div>
-                                    <div class="col-7 offset-md-1">
-                                       <div class="social-widget__follow-controls  social-widget__follow-controls_alreadyFollowing">
-                                        <div class="social-widget__follow-state">Following</div>
-                                        <div class="social-widget__follow-icon social-widget__follow-icon_following"></div>
+                                <div class="social-widget facebook-widget col">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="social-widget__logo"></div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="social-widget__followers-count">156k</div>
+                                        </div>
+                                        <div class="col-7 offset-md-1">
+                                            <a href="#" class="social-widget__follow-controls">
+                                                <div class="social-widget__follow-state">Follow</div>
+                                                <div class="social-widget__follow-icon social-widget__follow-icon_follow"></div>
+                                            </a>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                           </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="social-widget twitter-widget">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="social-widget__logo"></div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="social-widget__followers-count">89k</div>
+                                        </div>
+                                        <div class="col-7 offset-md-1">
+                                            <a href="#" class="social-widget__follow-controls  social-widget__follow-controls_alreadyFollowing">
+                                                <div class="social-widget__follow-state">Following</div>
+                                                <div class="social-widget__follow-icon social-widget__follow-icon_following"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -477,13 +486,12 @@
                             </div>
                             <div class="row">
                                 <div class="col">
-                                   <div class="sign-in__icons">
-                                       <div class="sign-in__icon sign-in__icon-fb"></div>
-                                    <div class="sign-in__icon sign-in__icon-twitter"></div>
-                                    <div class="sign-in__icon sign-in__icon-gplus"></div>
-                                    <div class="sign-in__icon sign-in__icon-linkedin"></div>
-                                   </div>
-                                    
+                                    <div class="sign-in__icons">
+                                        <a href="#" class="sign-in__icon sign-in__icon-fb"></a>
+                                        <a href="#" class="sign-in__icon sign-in__icon-twitter"></a>
+                                        <a href="#" class="sign-in__icon sign-in__icon-gplus"></a>
+                                        <a href="#" class="sign-in__icon sign-in__icon-linkedin"></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -493,33 +501,30 @@
                     <div class="col">
                         <div class="newsletter">
                             <div class="row">
-                               <div class="col">
-                                   <div class="newsletter__head">Join the Newsletter</div>
-                               </div>
+                                <div class="col">
+                                    <div class="newsletter__head">Join the Newsletter</div>
+                                </div>
                             </div>
                             <div class="row">
-                               <div class="col">
-                                   <div class="newsletter__phrase">Sign up for our personalized daily newsletter</div>
-                               </div>
+                                <div class="col">
+                                    <div class="newsletter__phrase">Sign up for our personalized daily newsletter</div>
+                                </div>
                             </div>
                             <div class="row">
-                              <div class="col">
-                                  <form action="#" class="newsletter__form">
-                                      <div class="form-group">
-                                                                           <div class="row">
-                                           <div class="col-sm-9 col-xs-12">
-                                               <input type="email" class=" form-control newsletter__input" placeholder="Enter email address">
-                                           </div>
-                                           <div class="col-sm-3 col-xs-12 text-center">
-                                               <button class="btn newsletter__submit">sign up</button>
-                                           </div>
-                                       </div>
-                                      </div>
-      
-                                   </form>
-                              </div>
-                               
-                                
+                                <div class="col">
+                                    <form action="#" class="newsletter__form">
+                                        <div class="form-group">
+                                            <div class="row">
+                                                <div class="col-sm-9 col-xs-12">
+                                                    <input type="email" class=" form-control newsletter__input" placeholder="Enter email address" data-validation="email">
+                                                </div>
+                                                <div class="col-sm-3 col-xs-12 text-center">
+                                                    <button class="btn newsletter__submit">sign up</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -535,7 +540,7 @@
                         <div class="featured-story__slide-content">
                             Now that the holiday gift-giving time is over, we're sure many of our readers unwrapped some new consoles.Despite its long life on the market...
                         </div>
-                        <button class="btn featured-story__slide-button">view more</button>
+                        <a href="#" class="btn featured-story__slide-button">view more</a>
                     </div>
                     <div class="featured-story__slide">
                         <img src="img/img-2.jpg" class="featured-story__slide-bg">
@@ -543,7 +548,7 @@
                         <div class="featured-story__slide-content">
                             Now that the holiday gift-giving time is over, we're sure many of our readers unwrapped some new consoles.Despite its long life on the market...
                         </div>
-                        <button class="btn featured-story__slide-button">view more</button>
+                        <a href="#" class="btn featured-story__slide-button">view more</a>
                     </div>
                     <div class="featured-story__slide">
                         <img src="img/img-3.jpg" class="featured-story__slide-bg">
@@ -551,44 +556,44 @@
                         <div class="featured-story__slide-content">
                             Now that the holiday gift-giving time is over, we're sure many of our readers unwrapped some new consoles.Despite its long life on the market...
                         </div>
-                        <button class="btn featured-story__slide-button">view more</button>
+                        <a href="#" class="btn featured-story__slide-button">view more</a>
                     </div>
                 </div>
             </div>
         </div>
-        
-         <!-- Modal -->
+
+        <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Ask a Question</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Ask a Question</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
-              </div>
-              <div class="modal-body">
-                <form action="#" class="ask-question">
-                    <div class="form-group">
-                        <div class="row">
-                            <input type="text" class="form-control ask-question__name" placeholder="Your name" data-validation="length alphanumeric" data-validation-length="min4">
-                        </div>
-                        <div class="row">
-                            <input type="email" class="form-control ask-question__email" placeholder="Your email" data-validation="email">
-                        </div>
-                        <div class="row">
-                            <textarea class="form-control ask-question__question" placeholder="Your question..." data-validation="length" data-validation-length="min10"></textarea>
-                        </div>
-                        <div class="row">
-                            <button type="submit" class="btn ask-question__submit">Submit</button>
-                        </div>
                     </div>
-                </form>
-              </div>
+                    <div class="modal-body">
+                        <form action="#" class="ask-question">
+                            <div class="form-group">
+                                <div class="row">
+                                    <input type="text" class="form-control ask-question__name" placeholder="Your name" data-validation="length alphanumeric" data-validation-length="min4">
+                                </div>
+                                <div class="row">
+                                    <input type="email" class="form-control ask-question__email" placeholder="Your email" data-validation="email">
+                                </div>
+                                <div class="row">
+                                    <textarea class="form-control ask-question__question" placeholder="Your question..." data-validation="length" data-validation-length="min10"></textarea>
+                                </div>
+                                <div class="row">
+                                    <button type="submit" class="btn ask-question__submit">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        
+
     </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
