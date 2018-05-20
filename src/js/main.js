@@ -234,11 +234,14 @@ function set_3_to_9() {
 
 }
 
-$(window).resize(function () {
-    //in case of 'resizing lovers' 
-    width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
-    returnToDefaults();
+$(window).resize(function (e) {
+    //in case of 'resizing lovers'
+    let new_width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+    if (new_width != width) returnToDefaults();
 })
+window.addEventListener("orientationchange", function() {
+    returnToDefaults();
+});
 
 //validator
 $.validate({
